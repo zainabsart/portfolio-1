@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8ff;
+  color: #333;
+  text-align: center;
+  background-image: url('Bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4b0082;
+  margin-bottom: 30px;
+}
+
+/* Grid layout for the artwork thumbnails */
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.artwork {
+  text-align: center;
+}
+
+.artwork img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.artwork a {
+  display: block; /* Ensures "Read Me!" is positioned below the image */
+  margin-top: 5px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artwork a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #4b0082;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffa500;
+  text-decoration: underline;
+}
